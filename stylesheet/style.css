@@ -257,7 +257,7 @@ p {
   margin-right: 15px;
 }
 
-/* サイトタイトルのフォントをserif体（明朝体）に設定 */
+/* テストサイトタイトルのフォントをserif体（明朝体）に設定 */
 .footer_text {
   font-size: 24px;
   font-family: 'Lora', serif;
@@ -269,6 +269,7 @@ p {
   #footer {
     height: 5rem;
   }
+
   .footer_text,
   .copy_right {
     margin-top: 2rem;
@@ -277,7 +278,8 @@ p {
     flex-direction: column-reverse;
   }
 
-  .copy_right>p,img {
+  .copy_right>p,
+  img {
     margin-right: 1rem;
     font-size: 14px;
     margin: 0;
